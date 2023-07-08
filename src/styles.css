@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ind-article {
+    @apply rounded-lg overflow-hidden drop-shadow-xl p-8;
+}
+
+.ind-p {
+    @apply text-gray-400 opacity-80 text-[14px];
+}
+
+.name-div {
+    @apply font-bold;
+}
+
+.verified-div {
+    @apply text-gray-400 text-[12px];
+}
+
+h2 {
+    @apply text-[20px] lg:text-[22px] font-bold pb-6;
+}
+
+.img-div {
+    @apply overflow-hidden rounded-full border-2 mr-5 max-h-[38px] max-w-[38px];
+}
+
+.image-name-wrapper {
+    @apply flex max-h-[38px] mb-6;
+}
+
+.name-wrapper {
+    @apply flex flex-col justify-center;
+}
